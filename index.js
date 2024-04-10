@@ -17,7 +17,7 @@ app.get("/challenges", async (req, res) => {
     const html = response.data;
     const $ = cheerio.load(html);
 
-    $('a.contains("")', html).each(function () {
+    $('a:contains("")', html).each(function () {
       const title = $(this).text();
       const url = $(this).attr("href");
 
