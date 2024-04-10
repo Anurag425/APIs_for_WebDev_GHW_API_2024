@@ -1,0 +1,17 @@
+{
+  "name": "apis_for_webdev",
+  "version": "1.0.0",
+  "description": "GHW api 2024",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Chungus",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
